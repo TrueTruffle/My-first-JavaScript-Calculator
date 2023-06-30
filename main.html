@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <script>
+    'use strict';
+   	let operator = prompt("Write an operator")
+   	let firstNum = prompt("Write first number")
+   	let secondNum = prompt("Write second number")
+   	let result = (operator == "+") ? Number(firstNum) + Number(secondNum):
+   			(operator == "-") ? Number(firstNum - secondNum):
+   			(operator == "*") ? Number(firstNum * secondNum):
+   			Number(firstNum / secondNum);
+   	alert(result)
+  </script>
+</body>
+</html>
